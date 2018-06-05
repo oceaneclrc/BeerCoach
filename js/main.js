@@ -2,6 +2,35 @@
 	
 	'use strict';
 
+		// var actu=[];
+
+	// function displayActu(name) {
+	// 	console.log(name);
+	// 	for (var i=0; i<actu.length; i++){
+	// 		if (actu[i].name==name){
+	// 			let item=actu[i];
+	// 			document.getElementById("actuName").innerHTML = name;
+	// 			document.getElementById("actuDescription").innerHTML = item.description;
+	// 			$('#actuImg').attr('src', '.' + item.img);
+	// 			break;
+
+	// 		}
+	// 	}
+	// }
+
+	// $(document).ready(function () {
+ //    $.get("../actualites.json", function (data) {
+ //    	actu=actu;
+ //        var container = $('#actuList');
+ //        actu.forEach(function (item) {
+ //            var date = $('<span></span>').addClass('badge').text(item.date);
+ //            var img = '<img src="'+item.img+'" />' ;
+ //            var elem = $('<a onclick="displayActu(\'' + item.name + '\')"></a>').addClass('list-group-item').append( item.name);
+ //            elem.appendTo(container);
+ //        });
+       
+ //    });
+
 	var mobileMenuOutsideClick = function() {
 
 		$(document).click(function (e) {
@@ -287,6 +316,8 @@
 	};
 
 
+
+
 	
 	$(function(){
 		mobileMenuOutsideClick();
@@ -301,7 +332,12 @@
 		counterWayPoint();
 		dateForm();
 		parallax();
+		// displayActu();
 	});
 
 
 }());
+
+
+
+

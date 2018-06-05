@@ -104,38 +104,65 @@
 	<div class="gtco-section">
 		<div class="gtco-container">
 			<div class="row">
-				<div class="col-md-4 col-md-offset-1 text-center gtco-heading">
+				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
 					<h2>Actualités</h2>
 					<p>toutes les dernières nouvelles.</p>
 				</div>
 			</div>
 
-			<div class="list-group">
-			  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
-			    <div class="d-flex w-100 justify-content-between">
-			      <h5 class="mb-1">List group item heading</h5>
-			      <small>3 days ago</small>
-			    </div>
-			    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-			    <small>Donec id elit non mi porta.</small>
-			  </a>
-			  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-			    <div class="d-flex w-100 justify-content-between">
-			      <h5 class="mb-1">List group item heading</h5>
-			      <small class="text-muted">3 days ago</small>
-			    </div>
-			    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-			    <small class="text-muted">Donec id elit non mi porta.</small>
-			  </a>
-			  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-			    <div class="d-flex w-100 justify-content-between">
-			      <h5 class="mb-1">List group item heading</h5>
-			      <small class="text-muted">3 days ago</small>
-			    </div>
-			    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-			    <small class="text-muted">Donec id elit non mi porta.</small>
-			  </a>
+			
+
+
+			<div class="container-fluid">
+				<div class="row">
+		    		<div class="col-md-6 ">
+		    			<div class="list-group">
+		    				<ul id="actuList"></ul>
+		    				
+<!-- 						  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+						    <div class="d-flex w-100 justify-content-between">
+						    	<h3 class="mb-1">IPA, késako ?</h3>
+						    </div>
+						    <p class="mb-1">L'Indian Pale Ale, la dernière bière à la mode... Mais à quoi ça correspond ?</p>
+						    
+						  </a>
+						  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+						    <div class="d-flex w-100 justify-content-between">
+						      <h3 class="mb-1">List group item heading</h3>
+						      
+						    </div>
+						    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+						
+						  </a>
+						  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+						    <div class="d-flex w-100 justify-content-between">
+						      <h3 class="mb-1">List group item heading</h3>
+						      
+						    </div>
+						    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+						
+						  </a> 
+						</div>
+					</div> -->
+
+		    		<div class="col-md-4 p-3 mb-2 bg-light text-dark">
+		      			<h2 id="actuName"></h2>
+						<p id="actuDescription"></p>
+		    		</div>
+		    		
+		    		<div class="col-md-4 p-3 mb-2 bg-light text-dark">
+		      			<img id="actuImg" style="width: 400px;">
+		    		</div>
+
+		  		</div>
+			<ul id="actuList"></ul>
+			<div>
+				<img id="actuImg">
+				<h2 id="actuName"></h2>
+				<p id="actuDescription"></p>
 			</div>
+
+
 			<!-- <div class="row">
 
 				<div class="col-lg-4 col-md-4 col-sm-6">
