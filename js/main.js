@@ -40,6 +40,8 @@
 
 	};
 
+	
+
 	var offcanvasMenu = function() {
 
 		$('#page').prepend('<div id="gtco-offcanvas" />');
